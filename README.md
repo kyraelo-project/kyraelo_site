@@ -19,10 +19,10 @@ Le dossier `out/` peut être déployé sur n'importe quel hébergement statique 
 
 | Élément | Où |
 | --- | --- |
-| Lien Cal.com (`[LIEN_CAL_COM]`) — utilisé par tous les boutons « Réserver un appel » | `lib/site.ts` → `CAL_URL` |
-| Email de contact (`[EMAIL_KYRAELO]`) | `lib/site.ts` → `EMAIL` |
 | Mentions légales, politique de confidentialité, CGV | `app/mentions-legales`, `app/confidentialite`, `app/cgv` |
 | Réalisations : remplacer les projets conceptuels par de vrais projets | `lib/content.ts` → `PROJECTS` |
+
+Le lien Cal.com (`CAL_URL`, utilisé par tous les boutons « Réserver un appel ») et l'email de contact (`EMAIL`) se modifient dans `lib/site.ts`.
 
 ## Structure
 

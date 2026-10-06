@@ -1,9 +1,8 @@
 /**
  * Source unique des liens et coordonnées du site.
- * Remplacer les placeholders ci-dessous avant la mise en ligne.
  */
-export const CAL_URL = "[LIEN_CAL_COM]";
-export const EMAIL = "[EMAIL_KYRAELO]";
+export const CAL_URL = "https://cal.com/kyraelo.ai/30min";
+export const EMAIL = "kyraelo.ai@gmail.com";
 export const CONTACT_HREF = `mailto:${EMAIL}`;
 
 export const SITE = {
