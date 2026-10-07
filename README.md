@@ -24,6 +24,15 @@ Le dossier `out/` peut être déployé sur n'importe quel hébergement statique 
 
 Le lien Cal.com (`CAL_URL`, utilisé par tous les boutons « Réserver un appel ») et l'email de contact (`EMAIL`) se modifient dans `lib/site.ts`.
 
+## Logo & réseaux sociaux
+
+Le dossier `brand/` contient le logo et les visuels prêts à l'emploi :
+
+- `kyraelo-profil-clair.png`, `kyraelo-profil-sombre.png` — photo de profil (1080×1080)
+- `kyraelo-logo-noir.png` / `.svg` (fonds clairs), `kyraelo-logo-blanc.png` / `.svg` (fonds sombres) — logo complet, fond transparent
+- `kyraelo-symbole-noir.svg`, `kyraelo-symbole-blanc.svg` — symbole seul (vectoriel)
+- `kyraelo-banniere-linkedin.png` (1584×396), `kyraelo-banniere-x.png` (1500×500), `kyraelo-post.png` (1200×630)
+
 ## Structure
 
 - `app/` — pages (accueil + pages légales), styles globaux et tokens de thème (`globals.css`)
